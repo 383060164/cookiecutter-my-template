@@ -9,6 +9,8 @@ packages = [{include = "{{ cookiecutter.package_name }}", from ="src"}]
 [tool.poetry.dependencies]
 python = ">=3.10, <4.0"
 
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.5.0"  
 
 [build-system]
 requires = ["poetry-core"]
