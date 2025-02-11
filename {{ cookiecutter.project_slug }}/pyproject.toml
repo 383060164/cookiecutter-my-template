@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "{{ cookiecutter-project-name-lower()-replace(' ', '-')-replace('-', '-') }}"
+version = "{{ cookiecutter.version }}"
+description = "{{ cookiecutter.project_description }}"
+authors = ["Tianyang Gao"]
+readme = "README.md"
+packages = [{include = "{{ cookiecutter.package_name }}", from ="src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
