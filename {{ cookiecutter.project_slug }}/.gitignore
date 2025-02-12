@@ -1,4 +1,60 @@
-# JetBrains IDE
-.idea/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# Poetry virtual environments
+.poetry/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+logs/
+*.log
+
+# Testing
+.tox/
+.nox/
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+
+# MyPy type checking
+.mypy_cache/
+.dmypy.json
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+
+# Database files
+*.sqlite3
+*.db
+
+# Secrets (ensure you manage these properly!)
+.env
+*.secrets
+
+/.python-version
